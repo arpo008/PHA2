@@ -284,11 +284,19 @@ td{
     width: 150px;
     color:rgba(213, 192, 192, 0.735);
     padding-left: 30px;
+   
     
 }
 table{
     border-collapse: collapse;
     margin-left: 110px;
+}
+.benefits{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color:rgba(107, 95, 95, 0.671);
+    padding-bottom: 20px;
+    background-color: #03020200;
 }
 .ins-text{
     width:600px;
