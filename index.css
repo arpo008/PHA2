@@ -16,6 +16,7 @@
     font-size:20px;
     font-style: italic;
     font-family: 'Inter', sans-serif;
+    color: red;
                                                 
     
 }
@@ -84,10 +85,9 @@
     background-color: red;
     margin-top: 20px;
     border-radius: 20px;
-    width: 300px;
+    width: 200px;
     height: 40px;
-    
-    padding-left: 20px;
+   margin-left: 50px;
     
 
 }
@@ -118,4 +118,41 @@
 }
 .cimg{
     border-radius: 100px;
+}
+.run{
+    padding-top: 20px;
+    border:2px solid red;
+    width:1000px;
+    height: 300px;
+    display: flex;
+    margin-left: 120px;
+}
+.run-text{
+   border: 2px solid red;
+    width:50%;
+    height: 300px;
+    text-align: center;
+    padding-top: 50px;
+}
+.run-img{
+    
+    width:50%;
+    height: 200px;
+}
+.run-IMG{
+    width:400px;
+    height:300px;
+    border-radius: 40px;
+    margin-left: 50px;
+}
+.rbtn{
+
+    border: 2px solid red;
+    justify-content: center;
+    background-color: red;
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    
 }
