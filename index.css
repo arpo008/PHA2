@@ -230,3 +230,44 @@ table{
     border-collapse: collapse;
     margin-left: 110px;
 }
+.ins-text{
+    width:600px;
+    height: 150px;
+    text-align: center;
+    padding-left: 150px;
+    margin-left: 230px;
+    border: 2px solid red;
+}
+.meet{
+   display: grid;
+    grid-template-columns: repeat(3,1fr);
+   
+    border:2px solid red;
+   padding-left: 120px;
+     width:500px;
+    height: 100%;
+    margin-left: 230px;
+    row-gap: 2px;
+    column-gap: 15px;
+    
+    
+   
+}
+.ins{
+    margin-top: 10px;
+    width:200px;
+    height:200px;
+    border:2px solid red;
+    text-align: center;
+    font-size: 10px;
+    
+   
+   
+}
+
+.ins-img{
+    width:200px;
+    height:200px;
+    border-radius: 5px;
+}
+    
