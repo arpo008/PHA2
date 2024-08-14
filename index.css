@@ -156,3 +156,77 @@
     height: 40px;
     
 }
+.bmi-text{
+    text-align: left;
+    margin-top: 20px;
+    width:1040px;
+    height:200px;
+    border: 2px solid red; 
+   margin-left: 100 px;
+   padding-left: 250px;
+   padding-top: 70px;
+   margin-right: 90px;
+}
+
+.calcu{
+border: 2px solid red;
+width: 1340px;
+height: 450px;
+display: flex;
+
+}
+.table{
+    border: 2px solid red;
+     width: 670px;
+     height: 300px;
+     margin-top: 40px;
+}
+.input{
+    border: 2px solid red;
+    width: 670px;
+     height: 300px;
+     margin-top: 40px;
+
+}
+.in{
+    display: flex;
+}
+.in{
+    background-color: #333;
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    max-width: 300px;
+    width:100%;
+    text-align: center;
+}
+input, select{
+    background-color: #444;
+    color: #fff;
+      border: none;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      font-size: 14px;
+      width: 250px;
+}
+#activity-factor{
+    width:550px;
+}
+.table{
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    
+}
+td{
+    border: 1px solid gray;
+    width: 150px;
+    padding-left: 30px;
+    
+}
+table{
+    border-collapse: collapse;
+    margin-left: 110px;
+}
