@@ -40,6 +40,9 @@
 button:hover{
     background-color: firebrick;
 }
+.hambrg{
+    display:none;
+}
 .free{
     width:150px;
     height:100px;
@@ -421,4 +424,160 @@ ul{
 }
 hr{
     color:white;
+}
+@media screen and ( max-width :576px) {
+    .nav-bar{
+       
+
+    }
+    .button{
+        display: none;
+
+    }
+    .hambrg{
+       display: block;
+      margin-left: 350px;
+      padding-top: 20px;
+      
+      
+       
+    }
+    .main-body{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .body-text{
+        text-align: left;
+        width:60%;
+        margin-left: 5px;
+    }
+    .button{
+        align-items: center;
+        
+    }
+    .Btn{
+        width:500px;
+        margin-left: 0%;
+        padding: 0;
+        justify-content: left;
+        margin: 0 auto;
+    }
+    
+    
+       
+    
+    .body-img{
+        width:fit-content;
+        text-align: left;
+        margin-left: 50px;
+        margin-top: 0;
+       
+
+    }
+    .middle-body{
+        flex-direction: column;
+        width:60%;
+        
+    }
+    .habit{
+        margin-left: 100px;
+    }
+    
+    .crcl-img{
+        flex-direction: column;
+    }
+    .card{
+        flex-direction: column;
+        padding-left: 60px;
+    }
+    .run{
+        flex-direction: column;
+        width:60%;
+        margin-top: 1100px;
+        padding-right: 200px;
+    }
+    .run-img{
+        margin-right: 100px;
+         margin-top: 100px;
+         align-items: center;
+         margin: 0 ;
+         margin-top: 50px;
+         justify-content: center;
+         padding-right: 50px;
+     
+       
+    }
+    .run-text{
+        width:60%;
+        text-align: center;
+        margin-left: 100px;
+        margin-top: 30px;
+
+    }
+    .bmi-text{
+        margin-top: 450px;
+        text-align: left;
+       margin-left: 70px ; 
+       padding: 0;
+       width: 100%;
+       
+        
+    }
+    .calcu{
+        flex-direction: column;
+        
+    }
+    .table{
+        
+        height: 400px;
+        padding-top: 0;
+        
+    }
+    .input{
+        margin-left: 80px;
+        width: 60%;
+
+    }
+.benefits{
+    margin-top: 200px;
+    width:70%;
+    margin-left: 100px;
+}
+.ins-text{
+  margin:0 auto;
+    text-align: center;
+    padding-right: 350px;
+    margin-right: 150px;
+    width: 250px;
+    margin-left: 50px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+    width: 300px;
+    height:1600px;
+    padding-left: 40px;
+
+    
+}
+.Footer{
+    flex-direction: column;
+    text-align: left;
+    margin:0 auto;
+}
+.start{
+    margin-left: 0%;
+}
+ul{
+    text-align: left;
+    margin: 0;
+    margin-left: 0%;
+}
+.end{
+    text-align: left;
+    margin: 0 auto;
+    margin-left: 70px;
+}
+
 }
