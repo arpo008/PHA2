@@ -1,2 +1,2 @@
-# FITNESS Gym Traning Website (HTML+ CSS) 
+# FITNESS Gym Training Website (HTML+ CSS) 
 ## https://arpo008.github.io/PHA2/
